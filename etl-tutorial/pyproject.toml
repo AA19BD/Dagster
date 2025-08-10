@@ -6,6 +6,7 @@ dependencies = [
     "dagster==1.11.5",
     "dagster-dbt>=0.27.5",
     "dagster-duckdb>=0.27.5",
+    "dagster-evidence>=0.1.6",
     "dbt-duckdb>=1.8.1",
     "duckdb==0.10.2",
     "pandas>=2.3.1",

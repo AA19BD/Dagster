@@ -495,6 +495,18 @@ wheels = [
 ]
 
 [[package]]
+name = "dagster-evidence"
+version = "0.1.6"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "dagster" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/c3/22/1b0a9402b109de56dc7c3e052d4d9dc38c03a9513a5c201f83b9d2c90182/dagster_evidence-0.1.6.tar.gz", hash = "sha256:47f358d1118f942f57bcbc54e7339c4d679656037541a04a0ec32da8c65b1203", size = 3081, upload-time = "2025-05-29T14:11:01.342Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b6/69/8b264db330c30305c2d7d83d4174863e97b2986db6f8c1648e630311a235/dagster_evidence-0.1.6-py3-none-any.whl", hash = "sha256:79ee49bea8757b4ad15220d4421efebe7c33aa5d3ba295c83b2aec6bff05c9c0", size = 4334, upload-time = "2025-05-29T14:10:59.661Z" },
+]
+
+[[package]]
 name = "dagster-graphql"
 version = "1.11.5"
 source = { registry = "https://pypi.org/simple" }
@@ -767,6 +779,7 @@ dependencies = [
     { name = "dagster" },
     { name = "dagster-dbt" },
     { name = "dagster-duckdb" },
+    { name = "dagster-evidence" },
     { name = "dbt-duckdb" },
     { name = "duckdb" },
     { name = "pandas" },
@@ -783,6 +796,7 @@ requires-dist = [
     { name = "dagster", specifier = "==1.11.5" },
     { name = "dagster-dbt", specifier = ">=0.27.5" },
     { name = "dagster-duckdb", specifier = ">=0.27.5" },
+    { name = "dagster-evidence", specifier = ">=0.1.6" },
     { name = "dbt-duckdb", specifier = ">=1.8.1" },
     { name = "duckdb", specifier = "==0.10.2" },
     { name = "pandas", specifier = ">=2.3.1" },
